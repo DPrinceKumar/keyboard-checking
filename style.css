@@ -49,25 +49,6 @@ h1 {
     font-size:18px;
     font-family: "Helvetica Neue", "Cabin", sans-serif;
 }
-.img1 {
-    padding-left:10px;
-    padding-top:10px;
-}
-.img2 {
-    padding-left:5px;
-}
-a {
-    text-decoration:none;
-
-}
-a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-a.title {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
-}
 h2 {
     font-size:17px;
     font-weight:300;
@@ -85,20 +66,12 @@ h2 {
 }
 .iconlist {
     padding-left:35px;
-    background-position: 15px 50%;
-    background-size: 10px 10px;
-    background-repeat: no-repeat;
-    background-image: url("right2.svg");
     opacity: 0.25;
     padding-bottom:2px;
 }
 .icon {
     padding-left:60px;
     padding-top:12px;
-    background-position: 5px 50%;
-    background-size: 50px 50px;
-    background-repeat: no-repeat;
-    background-image: url('https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-keyboard-multimedia-kiranshastry-lineal-color-kiranshastry.png');
 }
 .iconlist:hover {
     opacity:0.75;
@@ -260,19 +233,6 @@ h2 {
 .cmd {
     width:60px;
 }
-.press {
-    background-color: #C5C5C5;
-    border-color: #C5C5C5;
-    color: #FFF;
-    font-weight: bold;
-}
-/* .active {
-
-    background: linear-gradient(to bottom right,#8FD700, #17D700);
-    opacity: 1;
-    color: #fff;
-    border-color: #D8D8DE;
-} */
 .shiftleft {
     text-align: left;
     padding-left: 6px;
@@ -345,13 +305,11 @@ h2 {
     opacity: 0.98;
     color: white;
     background: #28a494;
-    /* background: linear-gradient(to bottom right,#8FD700, #17D700); */
 }
 .grey {
     opacity: 0.98;
     color: white;
     background: #343c3c;
-    /* background: linear-gradient(to bottom right,#8FD700, #17D700); */
 }
 .cardscontainer {
     width:100%;
@@ -421,44 +379,6 @@ h3 {
     line-height:22px;
     padding-right:30px;
 }
-img.cardtop {
-    margin:-12px;
-    width: calc(100% + 24px);
-    min-height:150px;
-    max-height:233px;
-    overflow:hidden;
-    margin-bottom:6px;
-    display:flex;
-}
-img.cardbottom {
-    margin:-12px;
-    width: calc(100% + 24px);
-    min-height:150px;
-    max-height:233px;
-    overflow:hidden;
-    margin-bottom:-28px;
-    margin-top:6px;
-}
-img.cardmiddle {
-    margin:-12px;
-    width: calc(100% + 24px);
-    min-height:150px;
-    max-height:233px;
-    overflow:hidden;
-    margin-bottom:6px;
-    margin-top:6px;
-}
-.cardbackground {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("mactypeweb.jpg");
-
-    background-size: cover;
-    position:relative;
-    background-position:40%;
-}
 h3.white {
     color:white;
     text-shadow: 0.5px 0.5px 0px #333;
@@ -469,35 +389,6 @@ p.white {
     color:white;
     text-shadow: 0.5px 0.5px 0px #333;
     font-size:18px;
-}
-.amazon {
-    background-color: #ffffff;
-    margin:0 auto;
-    padding:20px;
-    text-align:center;
-    font-size:14px;
-    min-height:60px;
-    border-top:1px solid #D8D8DE;
-    box-sizing:border-box;
-}
-.amazon a {
-    text-decoration:underline;
-    width:100%;
-    text-align:center;
-}
-
-.ctabar {
-    background-color: #ffffff;
-    margin:0 auto;
-    padding:0;
-    padding-bottom:10px;
-    width:100%;
-    text-align:center;
-    border-top:1px solid #D8D8DE;
-    border-bottom:1px solid #D8D8DE;
-    overflow: auto;
-    font-size:21px;
-    /* display:none; */
 }
 /* Small screens */
 @media all and (max-width: 1050px) {

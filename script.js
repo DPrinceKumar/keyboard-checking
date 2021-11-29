@@ -52,12 +52,11 @@ window.addEventListener("keydown", (event) => {
 
   /* two key button */
   else if (event.code === "ShiftRight") key = "shiftright";
-  else if (event.code === "MetaRight") key = "green";
-  else if (event.code === "AltRight") key = "altright";
-  else if (event.code === "ControlRight") key = "Controlright";
+  else if (event.code === "MetaRight") key = "Metaright";
+  else if (event.code === "AltRight") key = "optionright";
 
   else key = event.key;
-console.log(event.code);
+  
   let classChange = document.querySelector("." + key);
 
   classChange.classList.remove("green");
@@ -123,9 +122,8 @@ window.addEventListener("keyup", (event) => {
    else if (event.key === ")") key = "roundbracketright";
    /* two key button */
    else if (event.code === "ShiftRight") key = "shiftright";
-   else if (event.code === "MetaRight") key = "Meta";
-   else if (event.code === "AltRight") key = "Alt";
-   else if (event.code === "ControlRight") key = "Control";
+   else if (event.code === "MetaRight") key = "Metaright";
+   else if (event.code === "AltRight") key = "optionright";
    else key = event.key;
 
   let classChange = document.querySelector("." + key);
